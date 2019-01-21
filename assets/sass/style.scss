@@ -1,0 +1,267 @@
+/*!
+Theme name:Proyecto JK Restaurant
+Template Theme URI: http//www.srp.ucr.ac.cr/
+Author: Jairo García
+Author URI: http://www.srp.ucr.ac.cr/
+Description: Tema del curso Desarollo Rapido de Aplicaciones.
+version: 1.0
+license: GNU General Public License v2
+*/
+@import 'fonts';
+
+@include font-face ('BebasNeue Regular','BebasNeue Regular','bebas-neue-cufonfonts-webfont','serif');
+
+@include font-face ('Athena-Regular','Athena-Regular','Athena','serif');
+
+body{
+   font-family: 'Bebas Neue Regular';
+    margin: 0;
+    padding: 0;
+    background-color: black;
+   
+    
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0px;
+}
+
+.logo{
+    padding: 22px 20px;
+    height: 121px;
+    width: 125px;
+   
+   
+
+    
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+     color: #fff;
+      background-color: transparent;
+      
+  }
+    .nav-link{
+        color: #212529;
+        font-family: 'Bebas Neue Regular';
+        font-size: 26px;
+    }
+  
+    
+    
+    }
+
+
+.nav-item{
+    color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    border-color: #Fff;
+    border-radius: 0;
+    background-color: transparent;
+   
+    
+}
+.btn-primary:hover{
+     background-color: #886a46ff;
+    border-color: #fff;
+} 
+/*.barra {
+        font-size: 1.3rem;
+    }
+    .barra::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: rgba(136,106,70,255);
+        transition: width .3s;
+    }
+    .barra:hover::after {
+        width: 100%;
+    }
+    .page::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+         background: rgba(136,106,70,255);
+        transition: width .3s;
+    }*/
+.sec1{
+    width: 100%;
+      
+    background-size: cover;
+    background-position: center;
+}
+ .sec02{
+    background-color:#886a46ff;
+    text-align: center;
+    margin-top: auto;
+     color: #fff;
+     width: fit-content;
+    margin-left: -0.9%;
+    
+}
+.h1{
+    margin-top: 05%;
+}
+p{
+    font-family: 'Athena';
+    font-size: 22px;
+    padding: 5px 1px 0px 3px;
+    width: 80%;
+    height: auto;
+    margin-left: 11%;
+}
+  .bajo{
+    margin-top: 20%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+      
+    
+}
+.bloqueInicio {
+  text-align: center;
+  color: white;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  margin-top: -21%;
+     position: relative;
+    
+   
+}
+ .bloqueInicio .bloque-texto .bloque-texto-01
+{
+    font-size: 46px;
+    color: #fff;
+    margin-top: -270px;
+}
+.bloque-texto-02{
+  
+    font-family: 'Bebas Neue Regular';
+    font-weight: bold;
+    font-size: 38px;
+    color: #fff;
+    margin-top: -22px;
+}
+@media(max-width:640px) {
+   .bloqueInicio .bloque-texto .bloque-texto-01{
+        font-size: 22px;
+          color: #fff;
+    margin-top: -139px;
+    } 
+    .bloque-texto-02{
+  
+    font-family: 'Bebas Neue Regular';
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    margin-top: -2%;
+}
+     .bajo{
+       margin-left: 1%;
+    text-align: center;
+         margin-top: 15%;
+    }
+    .sec02{
+           padding-bottom: 7%;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:768px) {
+    .logo{
+        width: 89px;
+    }
+    .bloqueInicio{
+         margin-top: -15px;
+    }
+     .bloqueInicio .bloque-texto {
+    padding-top: 0px;
+    padding-bottom: 0px;
+   }
+    #mainNav{
+        background-color: #212529;
+        margin-top: -44px;
+    }
+    
+    .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+}
+      .bajo{
+       margin-left: 1%;
+    text-align: center;
+         margin-top: 15%;
+    }
+   .sec02{
+        margin-top: 1%;
+       padding-bottom: 5%;
+    }
+    }
+@media (min-width: 992px){
+    .pb-lg-4, .py-lg-4 {
+    padding-bottom: 1.5rem!important;
+    margin-top: -41px;
+        margin-left: 24%;
+    }
+    
+.bloqueInicio .bloque-texto .bloque-texto-01{
+        font-size: 22px;
+          color: #fff;
+    margin-top: -100px;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em!important;
+        
+}
+    
+    .col-lg-6{
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+    }
+
+@media (min-width: 1200px) {
+    .bloqueInicio .bloque-texto .bloque-texto-01{
+        font-size: 70px;
+          color: #fff;
+         margin-top: -45%;
+    font-family: 'Athena';
+    }
+    
+}
+@media(min-width:1920px){
+    .bajo {
+    margin-top: 17%;
+}
+}
+#Menus{
+    background-color: #333333ff;
+    color: #fff;
+    font-family: 'Bebas Neue Regular';
+}
+
