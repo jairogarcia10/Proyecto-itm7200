@@ -1,10 +1,23 @@
 <?php get_header();?>
+ <img class="img-fluid bloqueInicio" src=" <?php bloginfo('template_directory');?>/assets/img/00.png">
+     <div class="container">    
+   <div class="bloqueInicio">
+     
+     
+        <div class="bloque-texto">
+          <div class="bloque-texto-01">Tu Lugar Cotidiano</div>
+          <div class="bloque-texto-02 text-uppercase">Bienvenidos a JK Restaurant</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#">Ver Menu</a>
+        </div>
+      </div>
+      
+      </div> 
 <section id='Nosotros'>
 <div class="container-fluid">
 
 <div class="row ">
  <div class="col-lg-6 sec1 bajo ">
-  <img class="img-fluid" src=" <?php bloginfo('template_directory'); ?> /assets/img/historia.png"/>
+  <img class="img-fluid" src=" <?php bloginfo('template_directory'); ?>/assets/img/historia.png"/>
   </div>
   <div class="col-lg-6 sec02 bajo">
       <h1 class="h1">Nuestra historia</h1>
