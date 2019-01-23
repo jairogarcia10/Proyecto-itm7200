@@ -8,6 +8,7 @@ version: 1.0
 license: GNU General Public License v2
 */
 @import 'fonts';
+@import 'contacto';
 
 @include font-face ('BebasNeue Regular','BebasNeue Regular','bebas-neue-cufonfonts-webfont','serif');
 
@@ -28,21 +29,25 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
-.container-fluid{
-    padding-left: 0;
-    padding-right: 0px;
+
+h3{
+    font-family: 'Athena';
+    color: #fff;
 }
 
 .logo{
     padding: 22px 20px;
     height: 121px;
     width: 125px;
-   
-   
-
-    
+   }
+.col-md-4:hover{
+     background-color:#886a46ff;
 }
 
+.service-heading{
+    margin: 15px 0;
+    
+}
 @media (min-width: 768px) {
   .navbar-nav.navbar-center {
     position: absolute;
@@ -58,13 +63,17 @@ body{
         font-size: 26px;
     }
   
+}
+
     
     
-    }
 
 
 .nav-item{
     color: #fff;
+}
+.nav-item:hover{
+    background-color:#886a46ff;;
 }
 
 .btn-primary {
@@ -79,28 +88,17 @@ body{
      background-color: #886a46ff;
     border-color: #fff;
 } 
-/*.barra {
-        font-size: 1.3rem;
-    }
-    .barra::after {
-        content: '';
-        display: block;
-        width: 0;
-        height: 2px;
-        background: rgba(136,106,70,255);
-        transition: width .3s;
-    }
-    .barra:hover::after {
-        width: 100%;
-    }
-    .page::after {
-        content: '';
-        display: block;
-        width: 100%;
-        height: 2px;
-         background: rgba(136,106,70,255);
-        transition: width .3s;
-    }*/
+
+section{
+    padding: 100px 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+}
 .sec1{
     width: 100%;
       
@@ -130,6 +128,90 @@ p{
   .bajo{
     margin-top: 20%;
 }
+#nosotros{
+    padding: 0rem 0;
+}
+/***************es una prueba**********/
+
+
+
+
+
+header.masthead {
+  text-align: center;
+  color: white;
+ /*background-image: url("./assets/img/00.png");**/
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+    z-index: -1;
+    position: relative;
+}
+
+header.masthead .intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+header.masthead .intro-text .intro-lead-in {
+  font-size: 48px;
+ font-family: 'Athena';
+  line-height: 22px;
+  margin-bottom: 25px;
+  
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-bottom: 25px;
+     font-family: 'Bebas Neue Regular';
+ 
+}
+
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+      z-index: 1;
+    position: relative;
+    margin-top: -76%;
+  }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 48px;
+ font-family: 'Athena';
+    line-height: 40px;
+    margin-bottom: -11px;
+    
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 75px;
+    margin-bottom: -8px;
+    
+  }
+    #mainNav{
+        margin-top: -45px;
+        padding-left: 2px;
+    }
+    #Nosotros{
+        margin-top: -162px;
+    }
+    #Menus{
+        margin-top:-96px;
+        padding: 0px;
+    }
+     .icon-menu{
+        width: 59px;
+        height: auto;
+        margin-top: 43px;
+    }
+}
+
+/*********f******/
 
 .img-fluid {
     max-width: 100%;
@@ -165,19 +247,23 @@ p{
     margin-top: -22px;
 }
 @media(max-width:640px) {
-   .bloqueInicio .bloque-texto .bloque-texto-01{
+   header.masthead .intro-text .intro-lead-in{
         font-size: 22px;
           color: #fff;
     margin-top: -139px;
     } 
-    .bloque-texto-02{
+    header.masthead .intro-text .intro-heading {
   
     font-family: 'Bebas Neue Regular';
     font-weight: bold;
     font-size: 15px;
     color: #fff;
-    margin-top: -2%;
+    margin-top: -10%;
 }
+    section{
+            margin-top: -216px;
+    margin-left: 3px;
+    }
      .bajo{
        margin-left: 1%;
     text-align: center;
@@ -188,6 +274,20 @@ p{
     }
     p{
         font-size: 18px;
+    }
+    .btn-primary{
+        margin-top: -14px;
+    }
+    header.masthead .intro-text {
+        margin-top: -132px;
+    }
+    #mainNav{
+        margin-top: -12%;
+    }
+    .icon-menu{
+        width: 33px;
+        height: auto;
+        margin-top: 43px;
     }
 }
 
@@ -204,7 +304,7 @@ p{
    }
     #mainNav{
         background-color: #212529;
-        margin-top: -44px;
+       
     }
     
     .navbar-nav .nav-link {
@@ -229,7 +329,7 @@ p{
         margin-left: 24%;
     }
     
-.bloqueInicio .bloque-texto .bloque-texto-01{
+header.masthead .intro-text .intro-lead-in{
         font-size: 22px;
           color: #fff;
     margin-top: -100px;
@@ -246,12 +346,37 @@ p{
     }
 
 @media (min-width: 1200px) {
-    .bloqueInicio .bloque-texto .bloque-texto-01{
+    header.masthead .intro-text .intro-lead-in{
         font-size: 70px;
           color: #fff;
-         margin-top: -45%;
+         margin-top: 26%;
     font-family: 'Athena';
+            padding: 16px;
     }
+    header.masthead .intro-text .intro-heading {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 75px;
+    margin-bottom: 2px;
+    }
+    .sec02{
+        width: 100px;
+        
+        margin-top: 0px;
+    }
+    #Menus{
+    background-color: #333333ff;
+    color: #fff;
+    font-family: 'Bebas Neue Regular';
+        margin-top: -6.3%;
+        padding: 80px;
+}
+    .icon-menu{
+        width: 66px;
+        height: auto;
+    }
+    
+
     
 }
 @media(min-width:1920px){
@@ -263,5 +388,8 @@ p{
     background-color: #333333ff;
     color: #fff;
     font-family: 'Bebas Neue Regular';
+}
+#suscribirse{
+    background-color: black;
 }
 

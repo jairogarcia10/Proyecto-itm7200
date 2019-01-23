@@ -17,8 +17,10 @@
         </a>
      
     </h1>
+    
 
-    <!-- Navigation   -->
+
+    <!-- Navigation-->   
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
       <div class="container">
         <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#"><img class="img-fluid logo" src=" <?php bloginfo('template_directory'); ?>/assets/img/logo.png"></a>
