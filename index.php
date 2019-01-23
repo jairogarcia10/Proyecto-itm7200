@@ -96,7 +96,7 @@
           <div class="col-lg-12">
             <form id="contactForm" name="sentMessage" novalidate="novalidate">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 centro">
                   <div class="form-group">
                     <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
                     <p class="help-block text-danger"></p>

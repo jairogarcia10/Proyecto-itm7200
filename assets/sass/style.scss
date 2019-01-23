@@ -1,7 +1,7 @@
 /*!
 Theme name:Proyecto JK Restaurant
 Template Theme URI: http//www.srp.ucr.ac.cr/
-Author: Jairo García
+Author: Jairo García  y Karol
 Author URI: http://www.srp.ucr.ac.cr/
 Description: Tema del curso Desarollo Rapido de Aplicaciones.
 version: 1.0
@@ -9,47 +9,21 @@ license: GNU General Public License v2
 */
 @import 'fonts';
 @import 'contacto';
+@import 'home';
 
 @include font-face ('BebasNeue Regular','BebasNeue Regular','bebas-neue-cufonfonts-webfont','serif');
 
 @include font-face ('Athena-Regular','Athena-Regular','Athena','serif');
-
-body{
+body {
    font-family: 'Bebas Neue Regular';
     margin: 0;
     padding: 0;
     background-color: black;
    
-    
-}
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
-h3{
-    font-family: 'Athena';
-    color: #fff;
-}
-
-.logo{
-    padding: 22px 20px;
-    height: 121px;
-    width: 125px;
-   }
-.col-md-4:hover{
-     background-color:#886a46ff;
-}
-
-.service-heading{
-    margin: 15px 0;
-    
-}
 @media (min-width: 768px) {
-  .navbar-nav.navbar-center {
+    .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
@@ -62,116 +36,7 @@ h3{
         font-family: 'Bebas Neue Regular';
         font-size: 26px;
     }
-  
-}
-
     
-    
-
-
-.nav-item{
-    color: #fff;
-}
-.nav-item:hover{
-    background-color:#886a46ff;;
-}
-
-.btn-primary {
-    color: #fff;
-    border-color: #Fff;
-    border-radius: 0;
-    background-color: transparent;
-   
-    
-}
-.btn-primary:hover{
-     background-color: #886a46ff;
-    border-color: #fff;
-} 
-
-section{
-    padding: 100px 0;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    
-}
-.sec1{
-    width: 100%;
-      
-    background-size: cover;
-    background-position: center;
-}
- .sec02{
-    background-color:#886a46ff;
-    text-align: center;
-    margin-top: auto;
-     color: #fff;
-     width: fit-content;
-    margin-left: -0.9%;
-    
-}
-.h1{
-    margin-top: 05%;
-}
-p{
-    font-family: 'Athena';
-    font-size: 22px;
-    padding: 5px 1px 0px 3px;
-    width: 80%;
-    height: auto;
-    margin-left: 11%;
-}
-  .bajo{
-    margin-top: 20%;
-}
-#nosotros{
-    padding: 0rem 0;
-}
-/***************es una prueba**********/
-
-
-
-
-
-header.masthead {
-  text-align: center;
-  color: white;
- /*background-image: url("./assets/img/00.png");**/
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-    z-index: -1;
-    position: relative;
-}
-
-header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
-}
-
-header.masthead .intro-text .intro-lead-in {
-  font-size: 48px;
- font-family: 'Athena';
-  line-height: 22px;
-  margin-bottom: 25px;
-  
-}
-
-header.masthead .intro-text .intro-heading {
-  font-size: 38px;
-  font-weight: bold;
-  line-height: 50px;
-  margin-bottom: 25px;
-     font-family: 'Bebas Neue Regular';
- 
-}
-
-@media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
@@ -209,43 +74,11 @@ header.masthead .intro-text .intro-heading {
         height: auto;
         margin-top: 43px;
     }
-}
+}//fin del meadia
 
 /*********f******/
 
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-      
-    
-}
-.bloqueInicio {
-  text-align: center;
-  color: white;
-  z-index: -1;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-  margin-top: -21%;
-     position: relative;
-    
-   
-}
- .bloqueInicio .bloque-texto .bloque-texto-01
-{
-    font-size: 46px;
-    color: #fff;
-    margin-top: -270px;
-}
-.bloque-texto-02{
-  
-    font-family: 'Bebas Neue Regular';
-    font-weight: bold;
-    font-size: 38px;
-    color: #fff;
-    margin-top: -22px;
-}
+
 @media(max-width:640px) {
    header.masthead .intro-text .intro-lead-in{
         font-size: 22px;
@@ -289,7 +122,7 @@ header.masthead .intro-text .intro-heading {
         height: auto;
         margin-top: 43px;
     }
-}
+}//version movil
 
 @media(max-width:768px) {
     .logo{
@@ -346,18 +179,19 @@ header.masthead .intro-text .intro-lead-in{
     }
 
 @media (min-width: 1200px) {
+    
     header.masthead .intro-text .intro-lead-in{
-        font-size: 70px;
-          color: #fff;
+         font-size: 70px;
+         color: #fff;
          margin-top: 26%;
-    font-family: 'Athena';
-            padding: 16px;
+         font-family: 'Athena';
+         padding: 16px;
     }
     header.masthead .intro-text .intro-heading {
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 75px;
-    margin-bottom: 2px;
+     font-size: 36px;
+     font-weight: bold;
+     line-height: 75px;
+     margin-bottom: 2px;
     }
     .sec02{
         width: 100px;
@@ -376,7 +210,10 @@ header.masthead .intro-text .intro-lead-in{
         height: auto;
     }
     
-
+    .centro{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
     
 }
 @media(min-width:1920px){
@@ -384,12 +221,5 @@ header.masthead .intro-text .intro-lead-in{
     margin-top: 17%;
 }
 }
-#Menus{
-    background-color: #333333ff;
-    color: #fff;
-    font-family: 'Bebas Neue Regular';
-}
-#suscribirse{
-    background-color: black;
-}
+
 
