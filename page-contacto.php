@@ -2,7 +2,7 @@
 <?php get_header();?>
 
 
-<img class="img-fluid bloqueInicio" src=" <?php bloginfo('template_directory'); ?>/assets/img/00.png">
+<img class="img-fluid bloqueInicio" src=" <?php bloginfo('template_directory');?>/assets/img/00.png">
 
  <div class="container">    
    <div class="bloqueInicio">
@@ -70,7 +70,7 @@
 
 
 </section >
-    <img class="img-fluid trans " src=" <?php bloginfo('template_directory'); ?> /assets/img/cocina1.png">
+  <img class="img-fluid trans " src=" <?php bloginfo('template_directory');?>/assets/img/cocina1.png">
    <section >
      
    <div class="sec1">
