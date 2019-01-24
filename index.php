@@ -6,7 +6,7 @@
         <div class="intro-text">
           <div class="intro-lead-in">Tu Lugar Cotidiano</div>
           <div class="intro-heading text-uppercase">Bienvenidos a JK Restaurant</div>
-     <a class=" pr btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="page-contacto.php">Ver Menu</a>
+     <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="page-contacto.php">Ver Menu</a>
          <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="page-menu.php">Ver Menus</a>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="page-contacto.php">Ver Menu</a-->
         </div>
@@ -20,7 +20,7 @@
 
 <div class="row ">
  <div class="col-lg-6  ">
-  <img class="img-fluid" src=" <?php bloginfo('template_directory'); ?>/assets/img/histori.png"/>
+  <img class="img-fluid" src=" <?php bloginfo('template_directory'); ?>/assets/img/historia.png"/>
   </div>
   <div class="col-lg-6 sec02">
       <h1 class="h1">Nuestra historia</h1>

@@ -4,6 +4,7 @@
     <meta charset="<?php bloginfo('charset');?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php bloginfo('name');?></title>
+    <!--<link rel="icon" type="image/png" href="/assets/img/mifavicon.png" />-->
    <?php wp_head();?>
 </head>
 

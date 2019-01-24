@@ -1,25 +1,17 @@
-@import 'fonts';
-@include font-face('BebasNeue Regular','BebasNeue Regular','bebas-neue-cufonfonts-webfont','serif');
 
-@include font-face('Athena-Regular','Athena-Regular','Athena','serif');
 
-.fondo {
-	max-width:400px;
-	width:100%;
-	margin-right:auto ;
-	position:relative;
-}
 .background {
     width: 100%;
     height: 100px;
     background-color:#886a46ff;
-        margin-top: 295px;
+        margin-top: 102px;
+      
 }
 .background2 {
     width: 100%;
     height: 570px;
     background-color: black;
-    margin-top: -279px;
+   
 }
 bloqueFinal{
   z-index: -1;
@@ -31,6 +23,65 @@ bloqueFinal{
      position: relative;
     
 }
+.contenido{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+
+    font-size: 20px;
+    color: black;
+
+    
+}
+.cuadrado{
+margin-top: -490px; 
+    margin-left: -84px;
+    border: solid 2px #FFF;
+    color: white;
+    width: 94%;
+    height: 247px;
+    text-align: justify;
+
+}
+
+.cuadro{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: black;
+    text-align: inherit;
+    margin-top: 31px;
+    margin-left: 150px;
+}
+.imagen{
+    margin: 0;
+    display:inline-block;
+    height: 18px;
+    float:none;
+}
+
+
+.widget_blog_subscription {
+	display: block;
+	margin: 50px auto;
+	width: 60%;
+	max-width: 490px;
+	min-width: 320px;
+	position: relative;
+	overflow: hidden;
+	background-color: #F6F6F2;
+	border-radius: 5px;
+	padding: 50px;
+	background-color: #fff;
+	background-size: 100% 1em;
+	background-image: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.05) 79px, #abced4 79px, #abced4 81px, rgba(0, 0, 0, 0.03) 81px),
+					-webkit-linear-gradient(#eee .05em, transparent .05em);
+	background-image: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.05) 79px, #abced4 79px, #abced4 81px, rgba(0, 0, 0, 0.03) 81px),
+					-moz-linear-gradient(#eee .05em, transparent .05em);
+	background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 79px, #83B3DB 79px, #83B3DB 81px, rgba(0, 0, 0, 0.03) 81px),
+					linear-gradient(#eee .05em, transparent .05em);
+}
+
 .widget_blog_subscription {
 	background-color: #ddd;
 	background-image: linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #eee 75%, #eee), 
@@ -40,6 +91,12 @@ bloqueFinal{
 }
 .trans {
     opacity: 0.5;
+}
+.bloqueInicio .bloque-texto .bloque-texto-01
+{
+    font-size: 46px;
+    color: #fff;
+    margin-top: -270px;
 }
 .bloque-texto-03{
     font-family:'Athena';
@@ -258,8 +315,8 @@ fieldset {
     }
     
 }
-@media(min-width:1920px){
-    .bajo {
-    margin-top: 17%;
-}
+.tel{
+    width: 26px;
+    
+    margin-top: 1px;
 }

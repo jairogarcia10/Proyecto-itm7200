@@ -11,22 +11,36 @@
         </div>
       </div>
       </div> 
-      
-
- <div class="background trans"> </div>
-  
+   <div class=" background trans"> </div>
    
- <section class="map">
+ <div class="map">
+      
        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15712.82472861761!2d-84.73866466531227!3d10.082185334716812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa03ba90a4b50af:0xd0488ec6aa5f2d20!2sPuntarenas+Province,+Miramar!5e0!3m2!1sen!2scr!4v1548196879725" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
     
- </section>
+ </div>
  
-<section class="sec">
-<div class="container-fluid">
+<section class="sec ">
+
 <div class="row ">
- <div class="col-lg-6 bajo">
- <h3 >Dirección de Contacto</h3>
-<p class="text-muted">2639-8976/8967-3456<br>125m norte, Miramar-Puntarenas <br>JKrestaurant@gmail.com</p>
+ <div class="col-lg-6 contenido ">
+ 
+ <div class="contenido">
+ <h3 style="color:black">Dirección de Contacto</h3>
+ </div>
+ <div class="cuadro">
+ <div>
+ <img class="img-fluid tel" src=" <?php bloginfo('template_directory');?>/assets/img/tel.png">
+ <a style="color:black" href="tel:+50626398976">+506 2639-8976</a>
+ </div>
+ <div>
+ <img class="img-fluid tel" src=" <?php bloginfo('template_directory');?>/assets/img/email.png">
+ <a style="color:black" href="mailto:JKrestaurant@gmail.com">JKrestaurant@gmail.com</a><br>
+ </div>
+ <div>
+ <img class="img-fluid tel" src=" <?php bloginfo('template_directory');?>/assets/img/direc.png">
+ <a style="color:black" href=""https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15712.82472861761!2d-84.73866466531227!3d10.082185334716812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa03ba90a4b50af:0xd0488ec6aa5f2d20!2sPuntarenas+Province,+Miramar!5e0!3m2!1sen!2scr!4v1548196879725>125m norte, Miramar-Puntarenas</a><br>
+ </div>
+</div>
   </div>
   
    <div class="col-lg-6 sec">
@@ -43,9 +57,6 @@
       <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
-    </fieldset>
-    <fieldset>
       <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
     </fieldset>
     <fieldset>
@@ -55,29 +66,28 @@
   </div>
   
  </div>
-</div>
 
 
-</section>
+
+</section >
     <img class="img-fluid trans " src=" <?php bloginfo('template_directory'); ?> /assets/img/cocina1.png">
-<section>   
-    <div class="container">    
-   <div class="bloqueInicio">
+   <section >
+     
+   <div class="sec1">
       <div class="row">
-
-        <div class="col-lg-6">
-       
-            <h4 class="service-heading">HORARIO DE APERTURA</h4>
-            <p class="text-muted">Lunes - Viernes: ..... 8:00 a.m -21:00 p.m <br>
-            Sábado: ..... 14:00 a.m -21:00 p.m <br> Domingo: ..... CERRADO.</p>
+        <div class="col-lg-6 contenido">
+        <h4 class="service-heading">HORARIO DE APERTURA</h4>
+        <div class="cuadrado">
+        <h1 class="text-muted">Lunes - Viernes: ..... 8:00 a.m -21:00 p.m <br>
+            Sábado: ..... 14:00 a.m -21:00 p.m <br> Domingo: .....CERRADO.</h1>
+         </div>
+            
           
           </div>
     
-        
-        
-         <div class="col-lg-6">
+         <div class="col-lg-6 conteiner">
          
-          <h4 class="bloque-texto-03 ">MANTENGASE ACTUALIZADO</h4>
+             <h1 class="bloque-texto-03 ">MANTENGASE ACTUALIZADO</h1>
           <form action="contacto">
           <fieldset >
           <input placeholder="Your Email Address" type="email" tabindex="1" required>
@@ -88,11 +98,10 @@
           </div>
         </div>
       </div>
-      
-      </div> 
+ 
       </section>
        
-    <?php get_footer();?>
+   
     
     
    

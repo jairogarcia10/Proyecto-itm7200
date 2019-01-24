@@ -10,6 +10,7 @@ wp_enqueue_style( 'bootstrap_css', 'https://stackpath.bootstrapcdn.com/bootstrap
     wp_enqueue_style( 'style', get_stylesheet_uri() );
     
 //wp_enqueue_script( js_lib', ‘link_lib');
+    
 wp_enqueue_script( 'jquery', 'https://code.jquery.com/jquery-3.3.1.min.js'); wp_enqueue_script( 'bootstrap_js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js'); 
 }
 add_action('wp_enqueue_scripts', 'load_assets');
