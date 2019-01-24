@@ -15,7 +15,7 @@
           <a class="mx-auto" href="#">
             <img class="img-fluid logo" src=" <?php bloginfo('template_directory');?>/assets/img/logo.png">
         </a>
-     
+     </span>
     </h1>
     
 

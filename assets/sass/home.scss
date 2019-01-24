@@ -1,4 +1,10 @@
-
+body {
+   font-family: 'Bebas Neue Regular';
+    margin: 0;
+    padding: 0;
+    background-color: black;
+   
+}
 .container {
     width: 100%;
     padding-right: 15px;
@@ -17,7 +23,7 @@ h3{
     height: 121px;
     width: 125px;
    }
-.col-md-4:hover{
+.bac:hover{
       background-color:#886a46ff;
 }
 
@@ -28,22 +34,19 @@ h3{
 .nav-item{
     color: #fff;
 }
-.nav-item:hover{
-    color:#886a46ff;;
-}
+
 
 .btn-primary {
     color: #fff;
     border-color: #Fff;
     border-radius: 0;
     background-color: transparent;
+    cursor: pointer;
+   
    
     
 }
-.btn-primary:hover{
-     background-color: #886a46ff;
-    border-color: #fff;
-} 
+
 
 section{
     padding: 100px 0;
@@ -165,5 +168,27 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Bebas Neue Regular';
 }
 #suscribirse{
-    background-color: black;
+    background-color: #fff;
+    
+}
+ .form-control{
+        background-color: #ecececff;
+    
+    }
+.la{
+    color: black;
+}
+.list-inline-item{
+        width: 36px;
+}
+.peke{
+    text-align: center;
+    margin-bottom: -47px;
+}
+.t{
+       width: 42px;
+    height: 45px;
+}
+.pr{
+    background-color: yellow;
 }

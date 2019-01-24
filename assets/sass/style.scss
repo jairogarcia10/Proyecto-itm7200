@@ -14,13 +14,7 @@ license: GNU General Public License v2
 @include font-face ('BebasNeue Regular','BebasNeue Regular','bebas-neue-cufonfonts-webfont','serif');
 
 @include font-face ('Athena-Regular','Athena-Regular','Athena','serif');
-body {
-   font-family: 'Bebas Neue Regular';
-    margin: 0;
-    padding: 0;
-    background-color: black;
-   
-}
+
 
 @media (min-width: 768px) {
     .navbar-nav.navbar-center {
@@ -61,6 +55,7 @@ body {
     #mainNav{
         margin-top: -45px;
         padding-left: 2px;
+        
     }
     #Nosotros{
         margin-top: -162px;
@@ -73,6 +68,20 @@ body {
         width: 59px;
         height: auto;
         margin-top: 43px;
+    }
+    .centro{
+            margin-left: 180px;
+    }
+    .la{
+        margin-left: 34%;
+    }
+    .t{
+      margin-top: 28px;  
+    }
+     .f {
+         margin-top: 50px;}
+    .peke{
+            margin-bottom: -112px;
     }
 }//fin del meadia
 
@@ -116,11 +125,32 @@ body {
     }
     #mainNav{
         margin-top: -12%;
+        height: 261px;
     }
     .icon-menu{
         width: 33px;
         height: auto;
         margin-top: 43px;
+    }
+    #Menus{
+        margin-bottom: 153px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    .la{
+            margin-left: 130px;
+    }
+    .bajar01{
+        margin-top: 53px;
+        font-size: 20px;
+        margin-left: 50px; 
+    }
+    .t{
+           margin-top: 2px;
+    }
+    .peke{
+            margin-bottom: -18px;
     }
 }//version movil
 
@@ -154,6 +184,8 @@ body {
         margin-top: 1%;
        padding-bottom: 5%;
     }
+   
+
     }
 @media (min-width: 992px){
     .pb-lg-4, .py-lg-4 {
@@ -211,15 +243,44 @@ header.masthead .intro-text .intro-lead-in{
     }
     
     .centro{
-        margin-left: 20px;
-        margin-top: 20px;
+        margin-left: 25%;
+        margin-top: 26px;
+    
     }
+    .form-group {
+    margin-bottom: -1rem;
+         background-color: #ecececff;
+}
+    .btn-secondary{
+            margin-top: 42px;
+    margin-left: 41%;
+        background-color: transparent;
+        color: black;
+    }
+    h2{
+        font-size: 60px;
+    }
+    .bajarpoquito{
+       padding: 12px;
+    }
+    .la{
+        margin-left: 1px;
+    }
+    .bajar01{
+   
+    font-size: 23px;
+    }
+    
     
 }
 @media(min-width:1920px){
     .bajo {
-    margin-top: 17%;
+        margin-top: 17%;}
 }
-}
+
+    footer{
+        color: #fff;
+    }
+
 
 

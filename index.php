@@ -6,31 +6,21 @@
         <div class="intro-text">
           <div class="intro-lead-in">Tu Lugar Cotidiano</div>
           <div class="intro-heading text-uppercase">Bienvenidos a JK Restaurant</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#">Ver Menu</a>
+     <a class=" pr btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="page-contacto.php">Ver Menu</a>
+         <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="page-menu.php">Ver Menus</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="page-contacto.php">Ver Menu</a-->
         </div>
       </div>
     </header>
-<!--header class="masthead">
- <img class="img-fluid bloqueInicio" src=" <?php bloginfo('template_directory');?>/assets/img/00.png">
-     <div class="container">    
-   <div class="bloqueInicio">
-     
-     
-        <div class="bloque-texto">
-          <div class="bloque-texto-01">Tu Lugar Cotidiano</div>
-          <div class="bloque-texto-02 text-uppercase">Bienvenidos a JK Restaurant</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#">Ver Menu</a>
-        </div>
-      </div>
-      
-      </div> 
-      </header-->
+   
+
+
 <section id='Nosotros'>
 <div class="container-fluid">
 
 <div class="row ">
  <div class="col-lg-6  ">
-  <img class="img-fluid" src=" <?php bloginfo('template_directory'); ?>/assets/img/historia.png"/>
+  <img class="img-fluid" src=" <?php bloginfo('template_directory'); ?>/assets/img/histori.png"/>
   </div>
   <div class="col-lg-6 sec02">
       <h1 class="h1">Nuestra historia</h1>
@@ -52,9 +42,9 @@
           </div><br><br><br>
         </div>
         <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <div class="col-md-4 bajarpoquito bac">
+            <span>
+              
             <img class="img-fluid icon-menu" src=" <?php bloginfo('template_directory'); ?>/assets/img/icon-desa.png"/>
 
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
@@ -62,18 +52,18 @@
             <h4 class="service-heading">Desayunos</h4>
           
           </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <div class="col-md-4 bac">
+            <span >
+            
               <img class="img-fluid icon-menu" src=" <?php bloginfo('template_directory'); ?>/assets/img/icon-cena.png"/>
               <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Cena</h4>
          
           </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <div class="col-md-4 bac">
+            <span >
+             
     <img class="img-fluid icon-menu" src=" <?php bloginfo('template_directory'); ?>/assets/img/icon-post.png"/>
 
               <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
@@ -89,7 +79,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Mantengase cerca</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <p class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</p>
           </div>
         </div>
         <div class="row">
@@ -99,9 +89,12 @@
                 <div class="col-md-6 centro">
                   <div class="form-group">
                     <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-                    <p class="help-block text-danger"></p>
+                    
                   </div>
-                
+                  <div class="la">
+                        <a class="btn btn-secondary btn-xl text-uppercase js-scroll-trigger" href="page-contacto.php">Suscribase</a>
+                  </div>
+              
                 </div>
                </div>
             </form>
