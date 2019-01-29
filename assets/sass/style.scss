@@ -16,6 +16,12 @@ license: GNU General Public License v2
 @include font-face ('Athena-Regular','Athena-Regular','Athena','serif');
 
 
+
+
+
+
+//____________________Tablets____________________
+
 @media (min-width: 768px) {
     .navbar-nav.navbar-center {
     position: absolute;
@@ -83,10 +89,57 @@ license: GNU General Public License v2
     .peke{
             margin-bottom: -112px;
     }
-}//fin del meadia
+    
+    
+}//fin del media
 
-/*********f******/
 
+@media(max-width:768px) {
+    .logo{
+        width: 89px;
+    }
+    .bloqueInicio{
+         margin-top: -15px;
+    }
+     .bloqueInicio .bloque-texto {
+    padding-top: 0px;
+    padding-bottom: 0px;
+   }
+    #mainNav{
+        background-color: #212529;
+       
+    }
+    
+    .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+}
+      .bajo{
+       margin-left: 1%;
+    text-align: center;
+         margin-top: 15%;
+    }
+   .sec02{
+        margin-top: 1%;
+       padding-bottom: 5%;
+    }
+   
+    .cuadro{
+         height: 75%;
+    margin-top: -18px;
+    font-size: 26px;
+    text-align: center;
+
+    }
+    #contact h3{
+        font-size: 30px;
+        text-align: center;
+    }
+    }
+
+
+//____________________movil____________________
 
 @media(max-width:640px) {
    header.masthead .intro-text .intro-lead-in{
@@ -152,41 +205,21 @@ license: GNU General Public License v2
     .peke{
             margin-bottom: -18px;
     }
-}//version movil
-
-@media(max-width:768px) {
-    .logo{
-        width: 89px;
-    }
-    .bloqueInicio{
-         margin-top: -15px;
-    }
-     .bloqueInicio .bloque-texto {
-    padding-top: 0px;
-    padding-bottom: 0px;
-   }
-    #mainNav{
-        background-color: #212529;
-       
-    }
-    
-    .navbar-nav .nav-link {
-    padding-right: 0;
-    padding-left: 0;
+    .cuadro{
+         height: 75%;
+    margin-top: 156px;
+    font-size: 26px;
     text-align: center;
+
+    }
+    #contact h3{
+        font-size: 22px;
+        text-align: center;
+    }
 }
-      .bajo{
-       margin-left: 1%;
-    text-align: center;
-         margin-top: 15%;
-    }
-   .sec02{
-        margin-top: 1%;
-       padding-bottom: 5%;
-    }
-   
 
-    }
+
+//____________________desktops normal____________________
 
 @media (max-width: 991.98px){
 .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
@@ -194,7 +227,12 @@ license: GNU General Public License v2
     padding-left: 0;
     padding-top: 73px;
 }
+    .map {
+    height: 75%;
+  }
 }
+
+
 @media (min-width: 992px){
     .pb-lg-4, .py-lg-4 {
     padding-bottom: 1.5rem!important;
@@ -216,7 +254,11 @@ header.masthead .intro-text .intro-lead-in{
         flex: 0 0 50%;
         max-width: 50%
     }
+    
+    
     }
+
+//____________________desktops grandes____________________
 
 @media (min-width: 1200px) {
     
@@ -280,10 +322,6 @@ header.masthead .intro-text .intro-lead-in{
     }
     
     
-}
-@media(min-width:1920px){
-    .bajo {
-        margin-top: 17%;}
 }
 
     footer{

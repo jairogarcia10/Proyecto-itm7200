@@ -1,17 +1,20 @@
 
 <?php get_header();?>
 
-
-<img class="img-fluid bloqueInicio" src=" <?php bloginfo('template_directory');?>/assets/img/00.png">
-
- <div class="container">    
-   <div class="bloqueInicio">
-     <div class="bloque-texto">
-          <div class="bloque-texto-01">CONTACTANOS</div>
+<header class="masthead bloqueInicio">
+     <div class="container-fluid">
+     <img class="img-fluid masthead" src=" <?php bloginfo('template_directory');?>/assets/img/00.png">
+     
+        <div class="intro-text">
+          <div class="intro-lead-in">CONTACTANOS</div>
+          <div class="intro-heading text-uppercase">JK Restaurant</div>
+     
         </div>
+        
       </div>
-      </div> 
-   <div class=" background trans"> </div>
+      <div class=" background trans"> </div>
+    </header>
+   
    
  <div class="map">
       
@@ -20,14 +23,17 @@
  </div>
  
 <section class="sec ">
-
-<div class="row ">
- <div class="col-lg-6 contenido ">
+<div class="container">
+    <div class="row">
+ <div class="col-lg-6 ">
  
- <div class="contenido">
- <h3 style="color:black">Dirección de Contacto</h3>
- </div>
+ 
+ 
+
  <div class="cuadro">
+ <h3 style="color:black">Dirección de Contacto</h3>
+ <br>
+ <br>
  <div>
  <img class="img-fluid tel" src=" <?php bloginfo('template_directory');?>/assets/img/tel.png">
  <a style="color:black" href="tel:+50626398976">+506 2639-8976</a>
@@ -43,8 +49,9 @@
 </div>
   </div>
   
-   <div class="col-lg-6 sec">
+   <div class="col-lg-6">
        <form id="contact" action="" method="post">
+       
     <h3>Formulario de Contacto</h3>
     
     <fieldset>
@@ -66,28 +73,33 @@
   </div>
   
  </div>
+</div>
+
 
 
 
 </section >
-  <img class="img-fluid trans " src=" <?php bloginfo('template_directory');?>/assets/img/cocina1.png">
-   <section >
+  
+   
+    <section>
+    
+    <img class="img-fluid trans " src=" <?php bloginfo('template_directory');?>/assets/img/cocina1.png">
      
-   <div class="sec1">
-      <div class="row">
-        <div class="col-lg-6 contenido">
-        <h4 class="service-heading">HORARIO DE APERTURA</h4>
+   <div class="container">
+      <div class="row mr-0">
+       
+        <div class="col-lg-6">
+        <h4 class="title" >HORARIO DE APERTURA</h4>
         <div class="cuadrado">
         <h1 class="text-muted">Lunes - Viernes: ..... 8:00 a.m -21:00 p.m <br>
             Sábado: ..... 14:00 a.m -21:00 p.m <br> Domingo: .....CERRADO.</h1>
          </div>
-            
-          
           </div>
     
-         <div class="col-lg-6 conteiner">
+        
+         <div class="col-lg-6  ">
          
-             <h1 class="bloque-texto-03 ">MANTENGASE ACTUALIZADO</h1>
+          <h1 class="bloque-texto-03 ">MANTENGASE ACTUALIZADO</h1>
           <form action="contacto">
           <fieldset >
           <input placeholder="Your Email Address" type="email" tabindex="1" required>
@@ -97,11 +109,11 @@
           </form>
           </div>
         </div>
-      </div>
+        </div>
  
       </section>
        
-   
+      <?php get_footer();?>
     
     
    
