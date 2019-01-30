@@ -1,4 +1,5 @@
 
+
 <?php get_header();?>
 
 <header class="masthead bloqueInicio">
@@ -81,7 +82,7 @@
 </section >
   
    
-    <section>
+   
     
     <img class="img-fluid trans " src=" <?php bloginfo('template_directory');?>/assets/img/cocina1.png">
      
@@ -89,41 +90,35 @@
       <div class="row mr-0">
        
         <div class="col-lg-6">
-        <h4 class="title" >HORARIO DE APERTURA</h4>
+        <div class="title"><h1 class="bloque-texto-03 " >HORARIO DE APERTURA</h1></div>
+        
         <div class="cuadrado">
-        <h1 class="text-muted">Lunes - Viernes: ..... 8:00 a.m -21:00 p.m <br>
-            Sábado: ..... 14:00 a.m -21:00 p.m <br> Domingo: .....CERRADO.</h1>
+        <h2 class="horario">
+          
+           <p> Lunes - Viernes: ..... 8:00 a.m -21:00 p.m</p> <br>
+           <p> Sábado: ..... 14:00 a.m -21:00 p.m </p> <br>
+           <p>Domingo: ..... <span style="color:#886a46ff">CERRADO.</span></p>
+            
+        </h2>
          </div>
           </div>
     
         
          <div class="col-lg-6  ">
          
-          <h1 class="bloque-texto-03 ">MANTENGASE ACTUALIZADO</h1>
-          <form action="contacto">
+          <div class="actualizar"><h2 class="section-heading text-uppercase" style="color:#FFF">MANTENGASE ACTUALIZADO</h2>
+          <form id="contact" action="">
           <fieldset >
-          <input placeholder="Your Email Address" type="email" tabindex="1" required>
-          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">SUSCRIBIR</button>
+          <input placeholder="Correo Electronico..." type="email" tabindex="1" required>
+          <button   name="submit" type="submit" id="contact-submit" data-submit="...Sending">SUSCRIBIR</button>
           </fieldset>
            
           </form>
           </div>
+          </div>
         </div>
         </div>
  
-      </section>
+    
        
       <?php get_footer();?>
-    
-    
-   
-        
-      
-      
-      
-
-
-       
-   
-            
-  

@@ -4,7 +4,7 @@
     width: 100%;
     height: 100px;
     background-color:#886a46ff;
-        margin-top: -40px;
+        margin-top: -100px;
       
 }
 .full-container{
@@ -38,14 +38,13 @@ bloqueFinal{
     
 }
 .cuadrado{
-margin-top: -490px; 
-    margin-left: -84px;
+    margin-top: 10px;
+    margin-left: -101px;
     border: solid 2px #FFF;
     color: white;
-    width: 94%;
-    height: 247px;
+    height: 377px;
     text-align: justify;
-
+    width: 541px;
 }
 
 .cuadro{
@@ -69,7 +68,7 @@ margin-top: -490px;
     color: #886a46ff;
     display: inline-block;
    
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .sec{
@@ -143,7 +142,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-	background:#F96;
+	background:#000;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -169,34 +168,6 @@ fieldset {
  color:#888;
 }
 
-@media(max-width:640px) {
-   .bloqueInicio .bloque-texto .bloque-texto-01{
-        font-size: 22px;
-          color: #fff;
-    margin-top: -139px;
-    } 
-    .bloque-texto-02{
-  
-    font-family:'BebasNeue Regular';
-    font-weight: bold;
-    font-size: 15px;
-    color: #fff;
-    margin-top: -2%;
-}
-     .bajo{
-       margin-left: 1%;
-    text-align: center;
-         margin-top: 15%;
-    }
-    .sec02{
-           padding-bottom: 7%;
-    }
-    p{
-        font-size: 18px;
-    }
-    
-    
-}
 
 .map {
     position:static;
@@ -213,4 +184,18 @@ fieldset {
     width: 26px;
     
     margin-top: 1px;
+}
+.title{
+      margin-top: -549px;
+    margin-left: -103px;
+}
+.horario{
+    margin-left: -40px;
+    margin-top: 63px;
+    font-size: 46px;
+    
+}
+.actualizar{
+    margin-left: 17px;
+    margin-top: -430px;
 }

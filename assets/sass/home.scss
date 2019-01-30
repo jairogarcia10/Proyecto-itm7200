@@ -7,7 +7,7 @@ body {
 }
 
 h3{
-    font-family:'Athena-Regular';
+    font-family: 'Athena-Regular';
     color: #fff;
 }
 
@@ -38,6 +38,10 @@ h3{
    
    
     
+}
+.btn-primary:hover{
+    background-color: #886a46ff;
+    border-color: #fff;
 }
 
 
@@ -173,4 +177,19 @@ header.masthead .intro-text .intro-heading {
 }
 .pr{
     background-color: yellow;
+}
+.bloque{
+    margin-top: 6px;
+}
+.chef{
+    margin-top: -67%;
+    height: auto;
+    width: 52%;
+    margin-left: 28%;
+    margin-bottom: 117px;
+}
+.bo{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10%;
 }

@@ -6,9 +6,12 @@
         <div class="intro-text">
           <div class="intro-lead-in">Tu Lugar Cotidiano</div>
           <div class="intro-heading text-uppercase">Bienvenidos a JK Restaurant</div>
-     <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="page-contacto.php">Ver Menu</a>
+          
+         
+     <a class="btn btn-primary  btn-xl text-uppercase js-scroll-trigger" href="page-contacto.php">Ver Menu</a>
          <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="page-menu.php">Ver Menus</a>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="page-contacto.php">Ver Menu</a-->
+          
         </div>
       </div>
     </header>
