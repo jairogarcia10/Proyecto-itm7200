@@ -11,7 +11,7 @@ license: GNU General Public License v2
 @import 'contacto';
 @import 'home';
 
-@include font-face ('BebasNeue Regular','BebasNeue Regular','bebas-neue-cufonfonts-webfont','serif');
+@include font-face ('BebasNeue Regular','BebasNeue Regular','BebasNeue','serif');
 
 @include font-face ('Athena-Regular','Athena-Regular','Athena','serif');
 
@@ -33,7 +33,7 @@ license: GNU General Public License v2
   }
     .nav-link{
         color: #212529;
-        font-family: 'Bebas Neue Regular';
+        font-family: 'BebasNeue Regular';
         font-size: 26px;
     }
     
@@ -46,7 +46,7 @@ license: GNU General Public License v2
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 48px;
- font-family: 'Athena';
+ font-family: 'Athena-Regular';
     line-height: 40px;
     margin-bottom: -11px;
     
@@ -149,7 +149,7 @@ license: GNU General Public License v2
     } 
     header.masthead .intro-text .intro-heading {
   
-    font-family: 'Bebas Neue Regular';
+    font-family: 'BebasNeue Regular';
     font-weight: bold;
     font-size: 15px;
     color: #fff;
@@ -266,7 +266,7 @@ header.masthead .intro-text .intro-lead-in{
          font-size: 70px;
          color: #fff;
          margin-top: 26%;
-         font-family: 'Athena';
+         font-family: 'Athena-Regular';
          padding: 16px;
     }
     header.masthead .intro-text .intro-heading {
@@ -283,7 +283,7 @@ header.masthead .intro-text .intro-lead-in{
     #Menus{
     background-color: #333333ff;
     color: #fff;
-    font-family: 'Bebas Neue Regular';
+    font-family: 'BebasNeue Regular';
         margin-top: -6.3%;
         padding: 80px;
 }
