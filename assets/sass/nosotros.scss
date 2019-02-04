@@ -1,0 +1,30 @@
+.imagen-nosotros{
+    //background-image: url('./assets/img/pag.png');
+    height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+        padding-left: 0px;
+    padding-right: 0px;
+
+    z-index: -1;
+}
+.arriba{
+    margin-top: -5%;
+}
+.grupo{
+    background-image: url('./assets/img/grupo.png');
+    height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.bajarimagen{
+    
+}
+#blanco{
+    background-color: #fff;
+    height: auto;
+    margin-top: 19%;
+    margin-left: 0px;
+}

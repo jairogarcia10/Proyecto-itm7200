@@ -29,9 +29,9 @@ h3{
 }
 
 
-.btn-primary {
+.btn-primary{
     color: #fff;
-    border-color: #Fff;
+    border-color: #fff;
     border-radius: 0;
     background-color: transparent;
     cursor: pointer;
@@ -43,8 +43,10 @@ h3{
     background-color: #886a46ff;
     border-color: #fff;
 }
+.btn:active{
+    background-color: transparent;
 
-
+}
 section{
     padding: 100px 0;
 }
@@ -62,6 +64,15 @@ section{
      color: #fff;
      width: fit-content;
     margin-left: -0.9%;
+    
+}
+.section-nosotros{
+    background-color:#886a46ff;
+    text-align: center;
+    
+     color: #fff;
+     width: fit-content;
+    
     
 }
 .h1{
@@ -82,6 +93,10 @@ p{
     padding: 0rem 0;
 }
 
+.pr:hover {
+    background-color: green;
+}
+
 header.masthead {
   text-align: center;
   color: white;
@@ -91,7 +106,7 @@ header.masthead {
   background-position: center center;
   background-size: cover;
     z-index: -1;
-    position: relative;
+    //position: relative;
 }
 
 header.masthead .intro-text {
@@ -130,7 +145,7 @@ header.masthead .intro-text .intro-heading {
   background-position: center center;
   background-size: cover;
   margin-top: -21%;
-     position: relative;
+     //position: relative;
     
    
 }
@@ -152,6 +167,7 @@ header.masthead .intro-text .intro-heading {
     background-color: #333333ff;
     color: #fff;
     font-family: 'BebasNeue Regular';
+   height: 90%;
 }
 #suscribirse{
     background-color: #fff;
@@ -174,6 +190,13 @@ header.masthead .intro-text .intro-heading {
 .t{
        width: 42px;
     height: 45px;
+}
+.background-nosotros{
+    background-image: url('./assets/img/historia.png');
+    height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 .pr{
     background-color: yellow;

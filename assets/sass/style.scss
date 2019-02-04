@@ -10,10 +10,13 @@ license: GNU General Public License v2
 @import 'fonts';
 @import 'contacto';
 @import 'home';
+@import 'nosotros';
 
 @include font-face ('BebasNeue Regular','BebasNeue Regular','BebasNeue','serif');
 
 @include font-face ('Athena-Regular','Athena-Regular','Athena','serif');
+
+
 
 
 
@@ -41,7 +44,7 @@ license: GNU General Public License v2
     padding-top: 300px;
     padding-bottom: 200px;
       z-index: 1;
-    position: relative;
+    position: unset!important; 
     margin-top: -76%;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -90,6 +93,16 @@ license: GNU General Public License v2
             margin-bottom: -112px;
     }
     
+    .chef{
+        margin-top: -51%;
+    height: auto;
+    width: 39%;
+    margin-left: 34%;
+    margin-bottom: 102px;
+}
+    .imagen-nosotros{
+        margin-top: 0px;
+    }
     
 }//fin del media
 
@@ -107,7 +120,7 @@ license: GNU General Public License v2
    }
     #mainNav{
         background-color: #212529;
-       
+       position: unset!important; 
     }
     
     .navbar-nav .nav-link {
@@ -136,7 +149,7 @@ license: GNU General Public License v2
         font-size: 30px;
         text-align: center;
     }
-    }
+}
 
 
 //____________________movil____________________
@@ -216,6 +229,19 @@ license: GNU General Public License v2
         font-size: 22px;
         text-align: center;
     }
+    .chef{
+        margin-top: -51%;
+    height: auto;
+    width: 39%;
+    margin-left: 34%;
+    margin-bottom: 102px;
+}
+    .background-nosotros {
+   
+        height: 250px;}
+    .imagen-nosotros{
+        margin-top: 0px;
+    }
 }
 
 
@@ -262,6 +288,10 @@ header.masthead .intro-text .intro-lead-in{
 
 @media (min-width: 1200px) {
     
+    #Nosotros {
+    margin-top: 1px;
+}
+    
     header.masthead .intro-text .intro-lead-in{
          font-size: 70px;
          color: #fff;
@@ -286,6 +316,7 @@ header.masthead .intro-text .intro-lead-in{
     font-family: 'BebasNeue Regular';
         margin-top: -6.3%;
         padding: 80px;
+        height: 60%;
 }
     .icon-menu{
         width: 66px;
@@ -320,12 +351,13 @@ header.masthead .intro-text .intro-lead-in{
    
     font-size: 23px;
     }
-    
-    
+    .imagen-nosotros{
+         margin-top: -268px; }
 }
 
     footer{
         color: #fff;
+        background-color: black;
     }
 
 

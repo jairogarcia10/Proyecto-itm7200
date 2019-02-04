@@ -10,6 +10,8 @@
     </header>
     
         <div class="container">
+    
+          
            <div class="chef">
             <img class="img-fluid masthead" src=" <?php bloginfo('template_directory');?>/assets/img/animationFinal01.gif">
             </div>
