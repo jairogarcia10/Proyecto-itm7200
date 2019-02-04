@@ -39,6 +39,14 @@ h3{
    
     
 }
+.fondo{
+    background-image: url('./assets/img/00.png');
+    height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
 .btn-primary:hover{
     background-color: #886a46ff;
     border-color: #fff;
@@ -50,7 +58,9 @@ h3{
 section{
     padding: 100px 0;
 }
-
+#mainNav{
+    z-index: 1;
+}
 .sec1{
     width: 100%;
       

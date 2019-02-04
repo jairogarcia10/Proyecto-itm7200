@@ -10,7 +10,7 @@
      
     <div class="noso text-white text-center arriba ">
      <h1>Nuestro Restaurant</h1>
-     <span class="tag">Nosotros</span>
+     <span class="tag">About us</span>
     </div>
    </div>
     </div>
