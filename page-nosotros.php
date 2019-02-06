@@ -2,10 +2,10 @@
 <div class="container-fluid"> 
   <div class="row ">
  <div class="col-lg-12 col-md-12 col-sm-12  text-center imagen-nosotros">
-<img class="img-fluid masthead" src=" <?php bloginfo('template_directory');?>/assets/img/noso.png">
+<!--img class="img-fluid masthead" src=" <?php bloginfo('template_directory');?>/assets/img/noso.png"-->
   </div>
   
-   <div class="col-lg-12 col-sm-12 col-md-12"-->
+   <div class="col-lg-12 col-sm-12 col-md-12">
     
      
     <div class="noso text-white text-center arriba ">

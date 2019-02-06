@@ -11,6 +11,7 @@ license: GNU General Public License v2
 @import 'contacto';
 @import 'home';
 @import 'nosotros';
+@import 'reservaciones';
 
 @include font-face ('BebasNeue Regular','BebasNeue Regular','BebasNeue','serif');
 
@@ -62,7 +63,7 @@ license: GNU General Public License v2
     
   }
     #mainNav{
-        margin-top: -28px;
+        margin-top: -43px;
         padding-left: 2px;
         
     }
@@ -106,6 +107,9 @@ license: GNU General Public License v2
     }
     .arriba02 {
     margin-top: -36%;
+}
+    .arriba {
+    margin-top: -68%;
 }
 }//fin del media
 
@@ -205,7 +209,7 @@ license: GNU General Public License v2
         margin-top: -132px;
     }
     #mainNav{
-        margin-top: -5%;
+        margin-top: -12%;
         
     }
     .icon-menu{
@@ -263,6 +267,12 @@ license: GNU General Public License v2
     .arriba02 {
        margin-top: -109%;
     margin-bottom: 57%;
+}
+    .imagen-nosotros {
+        height: 500px;
+    }
+    .arriba {
+    margin-top: -69%;
 }
 }
 
@@ -389,6 +399,8 @@ header.masthead .intro-text .intro-lead-in{
     .arriba02 {
     margin-top: -65%;
 }
+    .arriba {
+        margin-top: -427px;}
 }
 
     footer{

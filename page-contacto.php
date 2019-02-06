@@ -81,16 +81,16 @@
 
 </section >
   
-   
-   
+    <div class="container-fluid">
+      <div class="row ">
+          <div class="col-lg-12 col-md-12 col-sm-12  text-center imagen-final"></div>
     
-    <img class="img-fluid trans " src=" <?php bloginfo('template_directory');?>/assets/img/cocina1.png">
+    <!--img class="img-fluid trans " src=" <?php bloginfo('template_directory');?>/assets/img/cocina1.png"-->
      
-   <div class="container">
-      <div class="row mr-0">
+  
        
-        <div class="col-lg-6">
-        <div class="title"><h1 class="bloque-texto-03 " >HORARIO DE APERTURA</h1></div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="title text-center"><h1 class="bloque-texto-03 " >HORARIO DE APERTURA</h1></div>
         
         <div class="cuadrado">
         <h2 class="horario">
@@ -104,7 +104,7 @@
           </div>
     
         
-         <div class="col-lg-6  ">
+         <div class="col-lg-6 col-md-6 col-sm-12  ">
          
           <div class="actualizar"><h2 class="section-heading text-uppercase" style="color:#FFF">MANTENGASE ACTUALIZADO</h2>
           <form id="contact" action="">

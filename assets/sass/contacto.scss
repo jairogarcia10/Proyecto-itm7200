@@ -39,12 +39,12 @@ bloqueFinal{
 }
 .cuadrado{
     margin-top: 10px;
-    margin-left: -101px;
+    /*margin-left: -101px;*/
     border: solid 2px #FFF;
     color: white;
     height: 377px;
     text-align: justify;
-    width: 541px;
+   
 }
 
 .cuadro{
@@ -187,7 +187,7 @@ fieldset {
 }
 .title{
       margin-top: -549px;
-    margin-left: -103px;
+    /*margin-left: -103px;*/
 }
 .horario{
     margin-left: -40px;
@@ -198,4 +198,12 @@ fieldset {
 .actualizar{
     margin-left: 17px;
     margin-top: -430px;
+}
+.imagen-final{
+    
+    background-image: url('./assets/img/cocina1.png');
+    height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
