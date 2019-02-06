@@ -22,13 +22,13 @@
 
     <!-- Navigation--> 
       
-    <nav class="navbar navbar-center navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
       <div class="container ">
-       
+      
         <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#"><img class="img-fluid logo" src=" <?php bloginfo('template_directory'); ?>/assets/img/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
-	</button>
+          </button>
       
          <?php
         wp_nav_menu( array(
@@ -42,10 +42,11 @@
             'walker'            => new WP_Bootstrap_Navwalker()
 		) );
         ?>
-          
-        </div>
+          </div>
+       
      
     </nav>
+   
     
       
  

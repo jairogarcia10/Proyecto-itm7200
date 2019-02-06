@@ -4,7 +4,18 @@
    <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 text-center fondo"></div>
        
+ <div class="col-lg-12 col-sm-12 col-md-12">
+    
+     
+    <div class="noso text-white text-center arriba02 ">
+     <h1 class="intro-lead-in">Tu Lugar Cotidiano</h1>
+     <span class="intro-heading text-uppercase">Bienvenidos a JK Restaurant</span>
+      <div ><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="page-contacto.php">Ver Menu</a></div>
+    </div>
+   
    </div>
+   </div>
+   
     
 </div>
 
@@ -92,26 +103,24 @@
 <section id="suscribirse">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
+          <div class="col-lg-12 col-md-12 col-sm-12 text-center">
             <h2 class="section-heading text-uppercase">Mantengase cerca</h2>
             <p class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-6 col-sm-12 p-4 my-auto text-center">
             <form id="contactForm" name="sentMessage" novalidate="novalidate">
-              <div class="row">
-                <div class="col-md-6 centro">
                   <div class="form-group">
                     <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
                     
                   </div>
-                  <div class="la">
+                  <div class="col-lg-12 col-md-12 col-sm-12 text-center ">
                         <a class="btn btn-secondary btn-xl text-uppercase js-scroll-trigger" href="page-contacto.php">Suscribase</a>
                   </div>
               
-                </div>
-               </div>
+                
+               
             </form>
           </div>
         </div>

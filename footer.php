@@ -5,7 +5,7 @@
         <div class="row">
          
           
-          <div class="col-md-4 peke">
+          <div class=" col-lg- 3 col-md-4 col-sm-12 my-auto peke">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -26,12 +26,12 @@
               </li>
             </ul>
           </div>
-            <div class="col-md-4 peke">
+            <div class="col-lg- 3 col-md-4 col-sm-12  peke">
             <img class="img-fluid icon-menu t" src="<?php bloginfo('template_directory'); ?>/assets/img/pekelogo.png"/>
           </div>
-            <div class="col-md-4 bajar01">
+            <div class="col-lg- 3 col-md-4 col-sm-12 my-5 text-center bajar01">
            <div class="f">
-            <span class="copyright ">Copyright &copy; Your Website 2018</span>
+            <span class="copyright ">Copyright &copy; Your Website 2019</span>
             <?php bloginfo('name');?>
             </div>
           </div>
