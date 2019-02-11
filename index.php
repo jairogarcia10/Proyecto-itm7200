@@ -20,24 +20,7 @@
 </div>
 
 
-<!--header class="masthead bloqueInicio">
-     <div class="container-fluid">
-     <div class="row">
-     <div class="col-lg-12 col-md-12 col-sm-12 ">
-     <img class="img-fluid masthead" src=" <?php bloginfo('template_directory');?>/assets/img/00.png">
-     
-        <div class="intro-text">
-          <div class="intro-lead-in">Tu Lugar Cotidiano</div>
-          <div class="intro-heading text-uppercase">Bienvenidos a JK Restaurant</div>
-          
-         
-            <div ><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="page-contacto.php">Ver Menu</a></div>
-         
-          </div>
-        </div>
-        </div>
-      </div>
-    </header-->
+
    
 
 

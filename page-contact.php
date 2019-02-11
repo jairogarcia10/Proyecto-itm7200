@@ -7,8 +7,8 @@
      <img class="img-fluid masthead" src=" <?php bloginfo('template_directory');?>/assets/img/00.png">
      
         <div class="intro-text">
-          <div class="intro-lead-in">CONTACTANOS</div>
-          <div class="intro-heading text-uppercase">JK Restaurant</div>
+          <div class="intro-lead-in">CONTACT</div>
+         
      
         </div>
         

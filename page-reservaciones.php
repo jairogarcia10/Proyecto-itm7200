@@ -6,8 +6,8 @@
 <img class="img-fluid masthead" src=" <?php bloginfo('template_directory');?>/assets/img/reserva.png">
  
  <div class="intro-text">
-          <div class="intro-lead-in">¡RESERVE SU ESPACIO!</div>
-          <div class="intro-heading text-uppercase">JK Restaurante</div>
+     <div class="intro-lead-in">¡RESERVE SU ESPACIO!</div>
+         
      
         </div>
         
@@ -21,7 +21,7 @@
      <section id="blanco">
  <div class="container">
   
-   <div class="row mt-5 justify-content-center ">
+   <div class="row mt-5 justify-content-center "><br><br>
             <div class="col-lg-6 col-md-11 col-sm-11 text-center ">
                 <img class="img-fluid " src=" <?php bloginfo('template_directory');?>/assets/img/platorese.png">
             </div>
@@ -54,8 +54,9 @@
  </div>
  </div>
 </div>
+           
             </div>
-            
+            <br><br>
              <div class="col-lg-6 col-md-11 col-sm-11 ">
               <h1>HORARIO DE APERTURA</h1>
               
@@ -120,7 +121,7 @@
                          
                           <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
-                              <button type="button" onclick="alert('Gracias por preferirnos')" class="btn btn-success">Reservar</button>
+                              <button type="button" onclick="alert('Gracias por preferirnos')" style="background-color:#886a46ff; border-color:#886a46ff" class="btn btn-success">Reservar</button>
                             </div>
                           </div>
                         </form>
