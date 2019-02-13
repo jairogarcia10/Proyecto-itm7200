@@ -68,7 +68,7 @@ ul
     
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
     line-height: 75px;
     margin-bottom: -8px;
@@ -113,6 +113,8 @@ ul
 }
     .imagen-nosotros{
         margin-top: 0px;
+        
+    height: 796px;
     }
      .fondo{
         height: 500px;
@@ -363,8 +365,8 @@ header.masthead .intro-text .intro-lead-in{
         margin-top: 0px;
     }
     .bloqueInicio{
-        margin-left: 10px;
-        margin-right: 10px;
+       /* margin-left: 10px;
+        margin-right: 10px;*/
     }
     
     #Menus{
@@ -420,6 +422,8 @@ header.masthead .intro-text .intro-lead-in{
 }
     .arriba {
         margin-top: -58% !important;}
+    .imagen-nosotros {
+        height: 940px;}
 }
 @media (orientation:landscape) {
     .arriba {
