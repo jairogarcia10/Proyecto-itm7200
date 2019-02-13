@@ -28,8 +28,31 @@ h3{
     color: #fff;
 }
 
-
-.btn-primary{
+.boton-vermenu{
+       color: #fff;
+    border-color: #fff;
+    border-radius: 0;
+    background-color: transparent;
+    cursor: pointer; 
+}
+.boton-vermenu:hover{
+     background-color: #886a46ff;
+    border-color: #fff;
+    color: #fff;
+}
+.boton-vernoso{
+    color: #fff;
+    border-color: #fff;
+    border-radius: 0;
+    background-color: transparent;
+    cursor: pointer; 
+}
+.boton-vernoso:hover{
+     background-color: #403221;
+    border-color: #fff;
+    color: #fff;
+}
+/*.btn-primary{
     color: #fff;
     border-color: #fff;
     border-radius: 0;
@@ -40,9 +63,10 @@ h3{
     
 }
 
-#menu-item-48{
-    text-align: center !important;
-}
+.btn-primary:hover{
+    background-color: #886a46ff;
+    border-color: #fff;
+}*/
 .fondo{
     background-image: url('./assets/img/00.png');
     height:1200px; /* You must set a specified height */
@@ -51,10 +75,7 @@ h3{
   background-size: cover;
 }
 
-.btn-primary:hover{
-    background-color: #886a46ff;
-    border-color: #fff;
-}
+
 
 section{
     padding: 100px 0;

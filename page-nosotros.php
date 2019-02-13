@@ -6,12 +6,13 @@
   </div>
   
    <div class="col-lg-12 col-sm-12 col-md-12">
+     <div class="noso text-white text-center arriba ">
+     <h1 class="intro-lead-in">Nuestro Restaurant</h1>
+     <span class="intro-heading text-uppercase">Nosotros</span>
     
-     
-    <div class="noso text-white text-center arriba ">
-     <h1>Nuestro Restaurant</h1>
-     <span class="tag">Nosotros</span>
     </div>
+     
+   
    </div>
     </div>
    </div>

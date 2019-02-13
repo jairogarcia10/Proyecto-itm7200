@@ -24,8 +24,13 @@ ul
     margin-left: auto;
     margin-right: auto;
     display: block;
-    font-size: 18px;
+    font-size: 22px;
 }
+.navbar-nav .nav-item .nav-link:hover{
+        
+    color: #886a46ff;
+}
+
 
 
 
@@ -33,7 +38,7 @@ ul
 
 //____________________Tablets____________________
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
     .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
@@ -75,7 +80,7 @@ ul
         
     }
     #Nosotros{
-        margin-top: -162px;
+        margin-top: -126px;
     }
     #Menus{
         margin-top:-96px;
@@ -168,7 +173,7 @@ ul
 
 //____________________movil____________________
 
-@media(max-width:640px) {
+@media (max-width:640px) {
    header.masthead .intro-text .intro-lead-in{
         font-size: 22px;
           color: #fff;
@@ -194,9 +199,9 @@ ul
     color: #fff;
     margin-top: -10%;
 }
-    section{
-            margin-top: -216px;
-    margin-left: 3px;
+    #Nosotros{
+            margin-top: -226px;
+    
     }
      .bajo{
        margin-left: 1%;
@@ -216,7 +221,9 @@ ul
         margin-top: -132px;
     }
     #mainNav{
-        margin-top: -12%;
+            margin-top: -20%;
+    padding-left: 5%;
+    padding-right: 6%;
         
     }
     .icon-menu{
@@ -246,7 +253,6 @@ ul
     }
     .cuadro{
          height: 75%;
-    margin-top: 156px;
     font-size: 26px;
     text-align: center;
 
@@ -269,17 +275,17 @@ ul
         margin-top: 0px;
     }
     .fondo{
-        height: 500px;
+        height: 400px;
     }
     .arriba02 {
        margin-top: -109%;
     margin-bottom: 57%;
 }
     .imagen-nosotros {
-        height: 500px;
+        height: 400px;
     }
     .arriba {
-    margin-top: -69%;
+    margin-top: -121%;;
 }
 }
 
@@ -355,6 +361,11 @@ header.masthead .intro-text .intro-lead-in{
         
         margin-top: 0px;
     }
+    .bloqueInicio{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
     #Menus{
     background-color: #333333ff;
     color: #fff;
@@ -400,15 +411,25 @@ header.masthead .intro-text .intro-lead-in{
          margin-top: -268px; }
     
     .fondo{
-            margin-top: -15%;
-        height: 1200px;
+            margin-top: -16%;
+        height: 800px;
     }
     .arriba02 {
-    margin-top: -65%;
+    margin-top: -49%;
 }
     .arriba {
-        margin-top: -427px;}
+        margin-top: -58% !important;}
 }
+@media (orientation:landscape) {
+    .arriba {
+           margin-top: -554px;
+    }
+ 
+   
+}
+    
+
+
 
     footer{
         color: #fff;
