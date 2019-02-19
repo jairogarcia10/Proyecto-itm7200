@@ -1,8 +1,29 @@
 
 
 <?php get_header();?>
-
-     <div class="container-fluid">
+<div class="container-fluid">
+   <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 px-0">
+          <img class="img-fluid w-100 " src="<?php bloginfo('template_directory');?>/assets/img/00.png">
+      </div>
+       
+ <div class="col-lg-12 col-sm-12 col-md-12">
+    
+     
+    <div class="noso text-white text-center arriba02 ">
+    
+     <h1 class="intro-lead-in">Contactanos</h1>
+    
+     
+    </div>
+   
+   </div>
+    <div class=" background trans"> </div>
+   </div>
+   
+    
+</div>
+     <!--<div class="container-fluid">
      <div class="row bloqueInicio ">
  <div class="col-lg-12 col-md-12 col-sm-12">
  <img class="img-fluid masthead" src="<?php bloginfo('template_directory');?>/assets/img/00.png">
@@ -16,12 +37,12 @@
     </div>
      
    
-   </div>z
+   </div>
     
     <div class=" background trans"> </div>
     </div>
    </div>
-
+-->
 
 
 <section >
@@ -66,22 +87,16 @@
        
     <h3>Formulario de Contacto</h3>
     
-    <fieldset>
-      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-    </fieldset>
-    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required>
+
       <input placeholder="Your Email Address" type="email" tabindex="2" required>
-    </fieldset>
-    <fieldset>
+
       <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-    </fieldset>
-    <fieldset>
+
       <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-    </fieldset>
-    <fieldset>
+
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">ENVIAR MENSAJE</button>
-    </fieldset>
-  </form>
+      </form>
   </div>
   
  </div>

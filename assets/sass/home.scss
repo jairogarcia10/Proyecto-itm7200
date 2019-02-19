@@ -67,6 +67,7 @@ h3{
     background-color: #886a46ff;
     border-color: #fff;
 }*/
+
 .fondo{
     background-image: url('./assets/img/00.png');
     height:1200px; /* You must set a specified height */
@@ -75,7 +76,13 @@ h3{
   background-size: cover;
 }
 
-
+.fondo1{
+   width: auto;
+    height:1200px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
 
 section{
     padding: 100px 0;
