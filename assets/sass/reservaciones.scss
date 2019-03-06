@@ -1,5 +1,5 @@
 .imagen-rese{
-    /*background-image: url('./assets/img/reserva.png');*/
+    background-image: url('./assets/img/reserva.png');
     height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -11,4 +11,11 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; 
+}
+
+#blancoRe {
+    background-color: #fff;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 0px;
 }

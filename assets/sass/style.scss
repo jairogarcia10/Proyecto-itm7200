@@ -12,6 +12,7 @@ license: GNU General Public License v2
 @import 'home';
 @import 'nosotros';
 @import 'reservaciones';
+@import 'menu';
 
 @include font-face ('BebasNeue Regular','BebasNeue Regular','BebasNeue','serif');
 
@@ -31,7 +32,12 @@ ul
     color: #886a46ff;
 }
 
-
+#blancoGaleria{
+    background-color: #fff;
+    height: auto;
+    margin-top: -7%;
+    margin-left: 0px;
+}
 
 
 
@@ -116,6 +122,11 @@ ul
         
     height: 796px;
     }
+    .imagen-nosotros1{
+        margin-top: 0px;
+        
+    height: 796px;
+    }
      .fondo{
         height: 500px;
     }
@@ -125,6 +136,16 @@ ul
     .arriba {
     margin-top: -68%;
 }
+       #blancoRe {
+   
+    margin-top: 0%;
+    
+}
+    .imagen-contac{
+          
+    height: 796px;
+        
+    }
 }//fin del media
 
 
@@ -277,6 +298,11 @@ ul
     .imagen-nosotros{
         margin-top: 0px;
     }
+    
+    .imagen-nosotros1{
+        margin-top: 0px;
+            height: 400px;
+    }
     .fondo{
         height: 400px;
     }
@@ -290,6 +316,16 @@ ul
     .arriba {
     margin-top: -121%;;
 }
+    #blancoRe {
+   
+        margin-top: -103% !important;}
+    .imagen-contac {
+        height: 400px;
+            margin-top: 0px;
+    }
+    #MenusM{
+        margin-top: -403px;
+    }
 }
 
 
@@ -302,7 +338,7 @@ ul
     padding-top: 73px;
 }
     .map {
-    height: 75%;
+    height: 343%;
   }
 }
 
@@ -389,7 +425,7 @@ header.masthead .intro-text .intro-lead-in{
     }
     .form-group {
     margin-bottom: -1rem;
-         background-color: #ecececff;
+         
 }
     .btn-secondary{
             margin-top: 42px;
@@ -413,6 +449,10 @@ header.masthead .intro-text .intro-lead-in{
     .imagen-nosotros{
          margin-top: -268px; }
     
+     .imagen-nosotros1{
+         margin-top: -268px;
+    height: 940px;}
+    
     .fondo{
             margin-top: -16%;
         height: 800px;
@@ -424,13 +464,35 @@ header.masthead .intro-text .intro-lead-in{
         margin-top: -58% !important;}
     .imagen-nosotros {
         height: 940px;}
+    #blancoRe {
+    margin-top: -1% !important;
+}
+    .imagen-contac {
+        height: 940px;
+        margin-top: -252px;
+    }
 }
 @media (orientation:landscape) {
     .arriba {
            margin-top: -554px;
     }
- 
+    
+    #blancoRe {
    
+    margin-top: 11%;
+    
+}
+    .bajarT{
+        margin-top: 10px;
+    }
+ 
+   header.masthead .intro-text {
+  
+    margin-top: -64%;
+}
+    .arribas{
+        margin-top: -35%;
+    } 
 }
     
 

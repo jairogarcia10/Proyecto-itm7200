@@ -181,7 +181,7 @@
       
       
     </section>
-  <?php echo do_shortcode('[wonderplugin_gridgallery id=1]'); ?>
+
        
 
     
